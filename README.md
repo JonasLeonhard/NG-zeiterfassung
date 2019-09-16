@@ -10,17 +10,22 @@ Run `ng serve` or `npm run start` for a dev server. Navigate to `http://localhos
 
 ## App Screenshots
 
-![Mask](../master/git-readme/Screen01.png)
 # Create time tracker elements.
-![Mask](../master/git-readme/Screen02.png)
+![Mask](../master/git-readme/Screen01.png)
+
 # Delete elements or add to past tracking elements.
-![Mask](../master/git-readme/Screen03.png)
+![Mask](../master/git-readme/Screen02.png)
+
 # Element creation dialog.
+![Mask](../master/git-readme/Screen03.png)
+
+# Change Layout and Language
 ![Mask](../master/git-readme/Screen04.png)
 ![Mask](../master/git-readme/Screen05.png)
-# Change Layout and Language
-![Mask](../master/git-readme/Screen06.png)
+
 # Drag & Drop to order elements.
+![Mask](../master/git-readme/Screen06.png)
+
 
 ## Code scaffolding
 
