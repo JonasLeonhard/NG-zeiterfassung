@@ -13,18 +13,20 @@ Dragula service - for drag & drop,
 ngx-translate - runtime translation, 
 internationalization - build translation
 
-\nServices
-\n|_ list-element.service
+```
+Services
+|_ list-element.service
 
-\nComponents
-\n|_ schedule-list
-\n|     |_ schedule-list-element
-\n|     |_ schedule-list-form
-\n|           |_ form-dialog
+Components
+|_ schedule-list
+|     |_ schedule-list-element
+|     |_ schedule-list-form
+|           |_ form-dialog
 |_ template-header
 
 Models
 |_ list-element.ts
+```
 
 ___________
 List-element.service is injected into schedule-list and children components. 
