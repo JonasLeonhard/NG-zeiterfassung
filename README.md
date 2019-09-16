@@ -35,4 +35,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ![Mask](../master/git-readme/Screen03.png)
 ![Mask](../master/git-readme/Screen04.png)
 ![Mask](../master/git-readme/Screen05.png)
+![Mask](../master/git-readme/Screen06.png)
 
