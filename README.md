@@ -7,18 +7,20 @@ Used for this Project:
 ```
 Ng- components, service injection, model,
 ```
-
+Ng Material design components - 
 ```
-Ng Material design components - (mat-grid-list, mat-grid-tile, mat-form-field, mat-datepicker, mat-datepicker-toggle, mat-radio-group,
-                                  mat-radio-button, mat-error),
+mat-grid-list, mat-grid-tile, mat-form-field, mat-datepicker, mat-datepicker-toggle, mat-radio-group,
+mat-radio-button, mat-error
 ```
 
+Dragula, ngx-translate, i18n
 ```
 Dragula service - for drag & drop,
 ngx-translate - runtime translation, 
 internationalization - build translation
 ```
 
+Structure
 ```
 Services
 |_ list-element.service
@@ -39,7 +41,7 @@ ___________
 ###### List-element.service
 
 List-element.service is injected into schedule-list and children components. 
-It implements an Array of ListElements[] and ListElementsDone[], the Service is called, when changes in other components change the model. Fx. when submitting a new element in form-dialog, deleting or updating an element in schedule-list-element.
+It implements an Array of ListElements[] and ListElementsDone[]. The Service is called when changes in other components change the model. Fx. when submitting a new element in form-dialog or deleting and updating an element in schedule-list-element.
 It also handles the current state of the layout.
 It handles the dialog-form form.
 
@@ -70,7 +72,6 @@ mat-grid-list, mat-grid-tile, mat-form-field,
 mat-datepicker, mat-datepicker-toggle, mat-radio-group,
 mat-radio-button, mat-error.  
 ```
-
 The Form calls listElementService.submitForm() to create a new ListElement. 
 
 ___________
@@ -78,8 +79,8 @@ ___________
 
 Template-header implements the buttons to change the layout and language. 
 To change the language ngx-translate's TranslateService gets injected into the constructor.
-When changin a Language useLanguage() gets called, and changes the language by using /assets/i18n/lang.json file.
-When changin a Layout useLayout() gets called, this changes the cssState in listElementService.
+When changing a language useLanguage() gets called, and changes the language by using /assets/i18n/lang.json file.
+When changing a layout useLayout() gets called, this changes the cssState in listElementService.
 
 
 ## Development server
