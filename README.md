@@ -39,7 +39,7 @@ ___________
 ###### List-element.service
 
 List-element.service is injected into schedule-list and children components. 
-It implements an Array of ListElements[] and ListElementsDone[], the Service is called when changes in other components change the model. Fx. when submitting a new element in form-dialog, deleting or updating an element in schedule-list-element.
+It implements an Array of ListElements[] and ListElementsDone[], the Service is called, when changes in other components change the model. Fx. when submitting a new element in form-dialog, deleting or updating an element in schedule-list-element.
 It also handles the current state of the layout.
 It handles the dialog-form form.
 
