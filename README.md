@@ -4,14 +4,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 It was build in 1 Week.
 
 Used for this Project:
+```
 Ng- components, service injection, model,
+```
 
+```
 Ng Material design components - (mat-grid-list, mat-grid-tile, mat-form-field, mat-datepicker, mat-datepicker-toggle, mat-radio-group,
                                   mat-radio-button, mat-error),
-                                  
+```
+
+```
 Dragula service - for drag & drop,
 ngx-translate - runtime translation, 
 internationalization - build translation
+```
 
 ```
 Services
