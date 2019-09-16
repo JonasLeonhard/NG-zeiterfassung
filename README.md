@@ -7,6 +7,21 @@ It was build in 1 Week.
 
 Run `ng serve` or `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+
+## App Screenshots
+
+![Mask](../master/git-readme/Screen01.png)
+# Create time tracker elements.
+![Mask](../master/git-readme/Screen02.png)
+# Delete elements or add to past tracking elements.
+![Mask](../master/git-readme/Screen03.png)
+# Element creation dialog.
+![Mask](../master/git-readme/Screen04.png)
+![Mask](../master/git-readme/Screen05.png)
+# Change Layout and Language
+![Mask](../master/git-readme/Screen06.png)
+# Drag & Drop to order elements.
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
@@ -27,13 +42,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## App Screenshots
-
-
-![Mask](../master/git-readme/Screen01.png)
-![Mask](../master/git-readme/Screen02.png)
-![Mask](../master/git-readme/Screen03.png)
-![Mask](../master/git-readme/Screen04.png)
-![Mask](../master/git-readme/Screen05.png)
-![Mask](../master/git-readme/Screen06.png)
 
