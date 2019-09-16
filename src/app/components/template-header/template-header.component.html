@@ -1,0 +1,24 @@
+<header>
+    <div class="translateSelector">
+    {{ 'HEADER.SELECT' | translate}}
+    <select #languageselect (change)="useLanguage(languageselect.value)">
+      <option *ngFor="let lang of translate.getLangs()">{{ lang }}</option>
+    </select>
+    </div>
+
+    <div class="translateSelector2">
+    {{ 'HEADER.SELECT2' | translate}}
+    <select #layoutselect (change)="useLayout(layoutselect.value)">
+      <option>Layout 1</option>
+      <option>Layout 2</option>
+    </select>
+    </div>
+
+    <h1 i18n="template-header.h1|h1 of template-header@@template-header">
+    {{'HEADER.TRACK' | translate }}
+    <br>
+    <span>{{'HEADER.YOUR' | translate }}</span>
+    <br>
+    {{'HEADER.WORK' | translate }}!
+    </h1>
+</header>

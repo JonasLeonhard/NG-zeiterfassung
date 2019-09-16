@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="form-dialog-input1" datatype="html">
+        <source>Element Name*</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">input for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-input</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-error" datatype="html">
+        <source>This field is Mandatory. 3+ Characters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">error for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-error</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-input2" datatype="html">
+        <source>Start Date*</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">input2 for mandatory field date</note>
+        <note priority="1" from="meaning">form-dialog-input2</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-error2" datatype="html">
+        <source>This field is Mandatory.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+        <note priority="1" from="description">error2 for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-error2</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-input3" datatype="html">
+        <source>Start hh:mm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">input3 for mandatory field hh:mm</note>
+        <note priority="1" from="meaning">form-dialog-input3</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-error3" datatype="html">
+        <source>This field is Mandatory. Format! : hh:mm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description">error3 for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-error3</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-input4" datatype="html">
+        <source>End Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">input4 for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-input4</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-error4" datatype="html">
+        <source>This field is Mandatory.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description">error4 for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-error4</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-input5" datatype="html">
+        <source>End hh:mm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <note priority="1" from="description">input5 for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-input5</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-error5" datatype="html">
+        <source>This field is Mandatory. Format: hh:mm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+        <note priority="1" from="description">error5 for mandatory field</note>
+        <note priority="1" from="meaning">form-dialog-error5</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-button1" datatype="html">
+        <source>Keep on Done</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+        <note priority="1" from="description">label for matradionbutton</note>
+        <note priority="1" from="meaning">form-dialog-button</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-button2" datatype="html">
+        <source>Delete on Done</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+        <note priority="1" from="description">label2 for matradionbutton</note>
+        <note priority="1" from="meaning">form-dialog-button2</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-submitbutton" datatype="html">
+        <source>Submit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+        <note priority="1" from="description">submit for submitbutton</note>
+        <note priority="1" from="meaning">form-dialog-submit</note>
+      </trans-unit>
+      <trans-unit id="form-dialog-exitbutton" datatype="html">
+        <source>Exit</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/form-dialog/form-dialog.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+        <note priority="1" from="description">exit for exitbutton</note>
+        <note priority="1" from="meaning">form-dialog-exit</note>
+      </trans-unit>
+      <trans-unit id="schedule-listOpen" datatype="html">
+        <source>
+    Time Tracking <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ $listElements.length }}"/>)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/> -<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>&gt;<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">open toggle of schedule-list</note>
+        <note priority="1" from="meaning">schedule-listOpen</note>
+      </trans-unit>
+      <trans-unit id="schedule-listDone" datatype="html">
+        <source>Past Tracking <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>(<x id="INTERPOLATION" equiv-text="{{ $listElementsDone.length }}"/>)<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="START_TAG_SPAN_1" ctype="x-span" equiv-text="&lt;span&gt;"/> -<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="START_TAG_SPAN_2" ctype="x-span" equiv-text="&lt;span&gt;"/>&gt;<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+        <note priority="1" from="description">done toggle of schedule-list</note>
+        <note priority="1" from="meaning">schedule-listDone</note>
+      </trans-unit>
+      <trans-unit id="template-header" datatype="html">
+        <source>
+    Track
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>your<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/>
+    <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+    Work!
+    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/template-header/template-header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">h1 of template-header</note>
+        <note priority="1" from="meaning">template-header.h1</note>
+      </trans-unit>
+      <trans-unit id="schedule-list-form-input" datatype="html">
+        <source>Create a new Timetracker!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/schedule-list-form.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">input for createspan</note>
+        <note priority="1" from="meaning">schedule-list-form input</note>
+      </trans-unit>
+      <trans-unit id="schedule-list-form-create" datatype="html">
+        <source>Create</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-form/schedule-list-form.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">create for createspan</note>
+        <note priority="1" from="meaning">schedule-list-form</note>
+      </trans-unit>
+      <trans-unit id="schedule-list-element-input1" datatype="html">
+        <source>Name of the List Element</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-element/schedule-list-element.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">placeholder for input</note>
+        <note priority="1" from="meaning">schedule-list-element</note>
+      </trans-unit>
+      <trans-unit id="schedule-list-element-to1" datatype="html">
+        <source>to</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-element/schedule-list-element.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">to between dates</note>
+        <note priority="1" from="meaning">schedule-list-element</note>
+      </trans-unit>
+      <trans-unit id="schedule-list-element-delete" datatype="html">
+        <source>Delete</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/schedule-list/schedule-list-element/schedule-list-element.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description">delete element</note>
+        <note priority="1" from="meaning">schedule-list-element-delete</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

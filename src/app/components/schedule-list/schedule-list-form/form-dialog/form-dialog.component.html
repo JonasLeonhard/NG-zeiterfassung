@@ -1,0 +1,64 @@
+<form [formGroup]="listElementService.$form" class="normal-form" (submit)="onSubmit($event); $event.preventDefault();">
+
+<mat-grid-list cols="2" rowHeight="300px">
+  <mat-grid-tile>
+    <div class="controles-container">
+      <input type="hidden" formControlName="$key">
+
+      <mat-form-field>
+        <input formControlName="$label" matInput i18n-placeholder="form-dialog-input|input for mandatory field@@form-dialog-input1" placeholder="{{ 'DIALOG.NAME' | translate }}">
+        <mat-error i18n="form-dialog-error|error for mandatory field@@form-dialog-error">{{ 'DIALOG.MANLAB' | translate }}</mat-error>
+      </mat-form-field>
+
+    <mat-form-field color="warn">
+      <input formControlName="$startDate" matInput [matDatepicker]="picker" i18n-placeholder="form-dialog-input2|input2 for mandatory field date@@form-dialog-input2" placeholder="{{ 'DIALOG.STARTDATE' | translate }}" disabled>
+      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker disabled="false"></mat-datepicker>
+      <mat-error i18n="form-dialog-error2|error2 for mandatory field@@form-dialog-error2">{{ 'DIALOG.MANDATE' | translate }}</mat-error>
+    </mat-form-field>
+
+    <mat-form-field>
+        <input formControlName="$startTime" matInput i18n-placeholder="form-dialog-input3|input3 for mandatory field hh:mm@@form-dialog-input3" placeholder="Start hh:mm">
+        <mat-error i18n="form-dialog-error3|error3 for mandatory field@@form-dialog-error3">{{ 'DIALOG.MANHH' | translate }}</mat-error>
+      </mat-form-field>
+
+    <mat-form-field color="warn">
+      <input formControlName="$endDate" matInput [matDatepicker]="pickerend" i18n-placeholder="form-dialog-input4|input4 for mandatory field@@form-dialog-input4" placeholder="{{ 'DIALOG.ENDDATE' | translate }}" disabled>
+      <mat-datepicker-toggle matSuffix [for]="pickerend"></mat-datepicker-toggle>
+      <mat-datepicker #pickerend disabled="false"></mat-datepicker>
+      <mat-error i18n="form-dialog-error4|error4 for mandatory field@@form-dialog-error4">{{ 'DIALOG.MANDATE' | translate }}</mat-error>
+    </mat-form-field>
+
+     <mat-form-field>
+        <input formControlName="$endTime" matInput i18n-placeholder="form-dialog-input5|input5 for mandatory field@@form-dialog-input5" placeholder="{{ 'DIALOG.ENDHH' | translate }}">
+        <mat-error i18n="form-dialog-error5|error5 for mandatory field@@form-dialog-error5">{{ 'DIALOG.MANHH' | translate }}</mat-error>
+      </mat-form-field>
+
+      <mat-radio-group formControlName="$deleteOnDone">
+        <mat-radio-button (change)="listElementService.toggleFormButton($event)" value="1" i18n="form-dialog-button|label for matradionbutton@@form-dialog-button1">{{ 'DIALOG.KEEPONDONE' | translate }}</mat-radio-button>
+        <mat-radio-button (change)="listElementService.toggleFormButton($event)" value="2" i18n="form-dialog-button2|label2 for matradionbutton@@form-dialog-button2">{{ 'DIALOG.DELETEONDONE' | translate }}</mat-radio-button>
+      </mat-radio-group>
+
+      <!--
+      <mat-form-field>
+        <mat-select formControlName="date" placeholder="dates"></mat-select>
+          <mat-option>None</mat-option>
+          <ng-container *ngFor="let department of departments">
+            <mat-option value="{{department.id}}">{{department.value}}</mat-option>
+          </ng-container>
+      </mat-form-field>
+      -->
+    </div>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+  <div class="matbuttons">
+  <button mat-raised-button color="primary" type="submit" (click)="$event.preventDefault(); listElementService.submitForm(); submitForm()" [disabled]="listElementService.$form.invalid" i18n="form-dialog-submit|submit for submitbutton@@form-dialog-submitbutton">{{ 'DIALOG.SUBMIT' | translate }}</button>
+  <button mat-raised-button color="warn" type="submit" (click)="$event.preventDefault(); exitForm()" i18n="form-dialog-exit|exit for exitbutton@@form-dialog-exitbutton">{{ 'DIALOG.EXIT' | translate }}</button>
+  </div>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+
+</form>

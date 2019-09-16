@@ -1,0 +1,45 @@
+<!--done added here -> no handle display.. getStatus()-->
+<div [class.cssState1]="listElementService.cssState == 1" class="list-element" [class.done] = "ListElement$.status">
+    <div class="list-element-content">
+        <div class="handle">
+            <img src="./assets/svg/handle.svg">
+        </div>
+
+        <div class="list-element-check">
+             <img *ngIf="!ListElement$.status" (click)="toggleCheck($event)" src="./assets/svg/unchecked.svg">
+             <img *ngIf="ListElement$.status" (click)="toggleCheck($event)" src="./assets/svg/checked.svg">
+        </div>
+
+        <div class="list-element-title">
+            <input #input (keyup.enter)="changeLabel($event, input.value)" (blur)="changeLabel($event, input.value)" type="text" [ngModel]="ListElement$.label" i18n-placeholder="schedule-list-element|placeholder for input@@schedule-list-element-input1" placeholder="{{ 'LISTEL.IN1' | translate }}" >
+        </div>
+
+        <div *ngIf="ListElement$.startdate || ListElement$.startTime" class="list-element-date start">
+            <span *ngIf="ListElement$.startdate" class="startdate">{{ListElement$.startdate | date:'d/M/yy'}}</span>
+            <br *ngIf="ListElement$.startdate && ListElement$.startTime">
+            <span *ngIf="ListElement$.startTime" class="starttime">{{ListElement$.startTime}}</span>
+        </div>
+
+        <div *ngIf="ListElement$.enddate || ListElement$.endTime" class="list-element-bis">
+            <span i18n="schedule-list-element|to between dates@@schedule-list-element-to1">{{ 'LISTEL.TO' | translate }}</span>
+        </div>
+
+        <div *ngIf="ListElement$.enddate || ListElement$.endTime" class="list-element-date end">
+            <span *ngIf="ListElement$.enddate" class="enddate">{{ListElement$.enddate | date:'d/M/yy'}}</span>
+            <br *ngIf="ListElement$.enddate && ListElement$.endTime">
+            <span *ngIf="ListElement$.endTime" class="endtime">{{ListElement$.endTime}}</span>
+        </div>
+        <!--
+        <div class="list-element-time startTime">
+            <span>{{ListElement$.startTime}}</span>
+        </div>
+        <div class="list-element-time endTime">
+            <span>{{ListElement$.endTime}}</span>
+        </div>
+        -->
+
+    </div>
+    <div [class.cssState1]="listElementService.cssState == 1" class="delete" (click)="deleteElement($event)">
+        <span i18n="schedule-list-element-delete|delete element@@schedule-list-element-delete">{{ 'LISTEL.DELETE' | translate }}</span>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+npm run start / ng serve --open, to open the server on localhost:4200

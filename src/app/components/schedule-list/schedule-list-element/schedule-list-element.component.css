@@ -1,0 +1,156 @@
+.list-element{
+    background: white;
+    border-radius: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1em;
+}
+
+.list-element.cssState1{
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 1px solid;
+}
+
+
+.list-element.list-element.cssState1 h1{}
+
+.list-element .list-element-content{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-element-content .handle{
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+
+    justify-content: center;
+    align-items: center;
+
+    cursor: grab;
+}
+.handle img{
+    width: 20px;
+    height: 20px;
+}
+
+.list-element-content .list-element-check{
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    flex-flow: row;
+
+    justify-content: center;
+    align-items: center;
+
+    cursor: grab;
+}
+
+.list-element-check img{
+    width: 25px;
+    height: 25px;
+
+    transform-origin: 0.5 0.5;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.list-element-check img:hover{
+  transform: scale(1.1);
+}
+.list-element .list-element-content{
+    padding-left: 1em;
+}
+
+.list-element-content .list-element-title{
+    width: 100%;
+}
+.list-element-title input{
+    padding-left: 1em;
+    color: black;
+    width: 100%;
+    border: none;
+    word-break: break-word;
+}
+.list-element-title input::placeholder{
+    opacity: 0.5;
+    font-style: italic;
+}
+.list-element-title input:focus{
+    outline: none;
+}
+.list-element .delete{
+    color: white;
+    background-color: rgb(186, 86, 86);
+    cursor: pointer;
+    font-size: 1.3em;
+    border-left: 10px solid rgb(173, 82, 82);
+}
+.delete span{
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*When adding done class to list-element -> chang appearance:*/
+.list-element.done .list-element-content .handle{
+    display: none;
+}
+.list-element.done .list-element-content .list-element-title input{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+.list-element.done .list-element-content .list-element-title input::placeholder{
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+
+.list-element-date span{
+  color: black;
+}
+
+.list-element-date {
+  padding-right: 1em;
+  text-align: center;
+}
+
+.list-element-bis{
+  color:black;
+  padding-right: 1em;
+}
+
+.list-element-date .startdate{
+  color: rgb(123, 123, 123);
+}
+.list-element-date .enddate{
+  color: rgb(123, 123, 123);
+}
+.list-element-date .starttime{
+  color: rgb(143, 143, 143);
+}
+.list-element-date .endtime{
+  color: rgb(143, 143, 143);
+}
+
+.list-element .delete.cssState1{
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  font-size: 1.3em;
+  border:none;
+  color: black;
+}
+

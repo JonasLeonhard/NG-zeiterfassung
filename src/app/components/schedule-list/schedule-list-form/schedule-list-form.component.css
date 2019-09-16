@@ -1,0 +1,78 @@
+.list-form{
+    background-color: white;
+    color: black;
+    width: 100%;
+    margin: 0 0 2em 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 4em;
+    border-radius: 100px;
+
+    position: relative;
+    bottom: inherit;
+
+
+}
+
+.list-form.cssState1{
+  border: 1px solid black;
+}
+
+.list-form .list-content{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    border-radius: 100px;
+}
+
+.list-content input{
+    font-size: 1.5em;
+    word-break: break-word;
+    color: black;
+    width: 100%;
+    border: none;
+    padding-left: 1em;
+    border-radius: 100px;
+}
+
+.list-content input::placeholder{
+    opacity: 0.5;
+    font-style: italic;
+    color: grey;
+
+}
+
+.list-content input:focus{
+    outline: none;
+}
+
+.create{
+    color: white;
+    background-color: rgb(136, 136, 184);
+    cursor: pointer;
+    font-size: 1.3em;
+    border-left: 10px solid rgb(119, 119, 157);
+}
+.create.cssState1{
+  background-color: transparent;
+  border: none;
+}
+.create span{
+    padding: 1em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.create.cssState1 span{
+  color: black;
+}
+
+

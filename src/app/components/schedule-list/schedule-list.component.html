@@ -1,0 +1,28 @@
+<div [class.cssState1]="listElementService.cssState == 1" class="list-view">
+
+    <h4 [class.cssState1]="listElementService.cssState == 1" class="roundh4" (click)="toggleOpen()" i18n="schedule-listOpen|open toggle of schedule-list@@schedule-listOpen">
+    {{ 'LIST.OPEN' | translate }} <span>({{ $listElements.length }})</span>
+    <span *ngIf="showListElementsopen"> -</span>
+    <span *ngIf="!showListElementsopen">></span>
+    </h4>
+
+    <!-- Input with create Btn-->
+    <app-schedule-list-form (emitter)="update($event)" *ngIf="showListElementsopen"></app-schedule-list-form>
+
+    <div [class.cssState1]="listElementService.cssState == 1" *ngIf="showListElementsopen" class="list-elements">
+        <div class="dragula-container" dragula="DRAGULA_EVENTS" >
+        <app-schedule-list-element (emitter)="update($event)" *ngFor="let listElement of $listElements" [ListElement$]="listElement"></app-schedule-list-element>
+        </div>
+    </div>
+
+    <div [class.cssState1]="listElementService.cssState == 1">
+    <h4 [class]="showListElementsdone ? 'classtrue' : 'classfalse'" *ngIf="$listElementsDone.length > 0" (click)="toggleDone()" i18n="schedule-listDone|done toggle of schedule-list@@schedule-listDone">{{ 'LIST.DONE' | translate }} <span>({{ $listElementsDone.length }})</span>
+    <span *ngIf="showListElementsdone"> -</span>
+    <span *ngIf="!showListElementsdone">></span>
+    </h4>
+    </div>
+
+    <div [class.cssState1]="listElementService.cssState == 1" *ngIf="showListElementsdone" class="list-elements">
+    <app-schedule-list-element (emitter)="update($event)" *ngFor="let listElementdone of $listElementsDone" [ListElement$]="listElementdone"></app-schedule-list-element>
+    </div>
+</div>

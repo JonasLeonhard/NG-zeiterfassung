@@ -1,0 +1,36 @@
+{
+  "HEADER" : {
+    "SELECT": "Language: ",
+    "SELECT2": "Layout: ",
+    "TRACK": "Track",
+    "YOUR": "Your",
+    "WORK": "Work"
+  },
+  "LISTEL":{
+    "IN1": "Name of the ELement",
+    "DELETE": "Delete",
+    "TO": "to"
+  },
+  "DIALOG":{
+    "SUBMIT": "Submit",
+    "NAME": "Element Name*",
+    "MANLAB": "This field is Mandatory. 3+ Characters",
+    "MANDATE": "This field is Mandatory!",
+    "MANHH": "This field is Mandatory. Format! : hh:mm",
+    "ENDDATE": "End Date",
+    "ENDHH": "End hh:mm",
+    "KEEPONDONE": "Keep on Done",
+    "DELETEONDONE": "Delete on Done",
+    "SUBMIT": "Submit",
+    "EXIT": "Exit",
+    "STARTDATE": "Start Date*"
+  },
+  "LISTFORM":{
+    "CREATE": "Create a new Timetracker!",
+    "CREATESUBMIT": "CREATE"
+  },
+  "LIST":{
+    "OPEN": "Time Tracking",
+    "DONE": "Past Tracking"
+  }
+}

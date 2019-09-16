@@ -1,0 +1,8 @@
+// to run a different language: ng serve --configuration=de
+// or npm run start:de
+// extract translation messages.xlf: npm run int:extract
+// or ng xi18n --output-path locale
+
+// Example of added i18n tag->
+//     i18n=""       descr     |       message       @@    id"
+// <h1 i18n="template-header.h1|h1 of template-header@@template-header">

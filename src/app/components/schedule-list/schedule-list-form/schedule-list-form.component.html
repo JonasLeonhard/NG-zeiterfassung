@@ -1,0 +1,10 @@
+<div [class.cssState1]="listElementService.cssState == 1" class="list-form">
+    <div class="list-content">
+        <!--<input #input type="text" (emitter)="createElement($event, input.value)" (keyup.enter)="createElement($event, input.value)" placeholder="Name deines Punktes">
+        -->
+        <input #input type="text" (keyup.enter)="openDialog($event, input.value)" i18n-placeholder="schedule-list-form input|input for createspan@@schedule-list-form-input" placeholder="{{ 'LISTFORM.CREATE' | translate }}" >
+    </div>
+    <div [class.cssState1]="listElementService.cssState == 1" class="create" (click)="openDialog($event, input.value)">
+        <span i18n="schedule-list-form|create for createspan@@schedule-list-form-create">{{ 'LISTFORM.CREATESUBMIT' | translate}}</span>
+    </div>
+</div>

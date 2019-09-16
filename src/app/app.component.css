@@ -1,0 +1,11 @@
+.wrapper{
+  background: rgb(65, 65, 70);
+  color: white;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper.cssState1{
+  background: rgb(252, 252, 252);
+  color: black;
+}

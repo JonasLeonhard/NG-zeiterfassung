@@ -1,0 +1,36 @@
+{
+  "HEADER" : {
+    "SELECT": "Sprache: ",
+    "SELECT2": "Layout: ",
+    "TRACK": "Erfasse",
+    "YOUR": "deine",
+    "WORK": "Arbeit"
+  },
+  "LISTEL":{
+    "IN1": "Name des ELements",
+    "DELETE": "Löschen",
+    "TO": "bis"
+  },
+  "DIALOG":{
+    "SUBMIT": "Absenden",
+    "NAME": "Element Name*",
+    "MANLAB": "Dieses Feld ist Erforderlich . 3+ Buchstaben",
+    "MANDATE": "Dieses Feld ist Erforderlich!",
+    "MANHH": "Dieses Feld ist Erforderlich. Format! : ss:mm",
+    "ENDDATE": "End Datum",
+    "ENDHH": "End ss:mm",
+    "KEEPONDONE": "Nach Fertig behalten",
+    "DELETEONDONE": "Nach Fertig löschen",
+    "SUBMIT": "Absenden",
+    "EXIT": "Abbrechen",
+    "STARTDATE": "Start Datum*"
+  },
+  "LISTFORM":{
+    "CREATE": "Erstelle eine neue Zeiterfassung!",
+    "CREATESUBMIT": "ERSTELLEN"
+  },
+  "LIST":{
+    "OPEN": "Zeit Erfassung",
+    "DONE": "Vergangene"
+  }
+}
