@@ -13,14 +13,14 @@ Dragula service - for drag & drop,
 ngx-translate - runtime translation, 
 internationalization - build translation
 
-Services
-|_ list-element.service
+\nServices
+\n|_ list-element.service
 
-Components
-|_ schedule-list
-|     |_ schedule-list-element
-|     |_ schedule-list-form
-|           |_ form-dialog
+\nComponents
+\n|_ schedule-list
+\n|     |_ schedule-list-element
+\n|     |_ schedule-list-form
+\n|           |_ form-dialog
 |_ template-header
 
 Models
